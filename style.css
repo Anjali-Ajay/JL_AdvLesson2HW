@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Times New Roman';
+    color: darkblue;
+  }
+  
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20%;
+    padding: 0 4px;
+    flex-direction:row; /*it will first arrange all imges in 4 cols as specified and then applies the row/row-reverse property*/
+  }
+
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+    border: 2px solid lightseagreen; 
+    border-radius:20px;
+  }
+  
+  .buy {
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen; 
+    line-height: 17px; 
+    padding: 6px; 
+    border-radius: 35px; 
+    color:whitesmoke;
+  }
+
+  .details{
+    background-color: whitesmoke; 
+    border: 2px solid lightseagreen;
+    color:lightseagreen;
+    line-height: 17px; 
+    padding: 6px; 
+    border-radius: 35px; 
+  }
+    
